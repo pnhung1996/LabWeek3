@@ -34,6 +34,16 @@ const StyleMain = StyleSheet.create({
         fontSize: 35,
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    iconStyle : {
+        width : 30,
+        height : 30,
+        margin : 10
+    },
+    iconContainer : {
+        flexDirection : 'row',
+        justifyContent : 'center',
+        alignContent : 'center'
     }
 });
 
